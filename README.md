@@ -23,6 +23,11 @@ Predict whether a near-earth asteroid is hazardous or not.
 1. Download dataset from Kaggle
 2. Run notebook cells top to bottom
 
+
+
+
+
+
 # Titanic Survival Prediction
 
 ## Problem
@@ -48,3 +53,36 @@ Predict whether a passenger survived the Titanic disaster or not.
 ## How to Run
 1. Download dataset from Kaggle Titanic Competition
 2. Run notebook cells top to bottom
+
+
+
+
+
+
+
+# Melbourne House Price Prediction
+
+## Problem
+Predict the sale price of houses in Melbourne, Australia.
+
+## Dataset
+- Source: Kaggle
+- Features: Rooms, Bathroom, Landsize, Lattitude, Longtitude
+
+## Approach
+- Selected relevant features
+- Used train/validation split (80/20)
+- Tested multiple Decision Tree depths to find optimal max_leaf_nodes
+- Used Random Forest Regressor for final model
+
+## Result
+- Evaluated using Mean Absolute Error (MAE)
+- Random Forest outperformed single Decision Tree
+
+## Tech Stack
+- Python, Pandas, Scikit-learn
+
+## How to Run
+1. Download dataset from Kaggle
+2. Run notebook cells top to bottom
+
